@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Database
+*.db
+*.sqlite3
+
+# Uploaded audio
+data/audio/*
+!data/audio/.gitkeep
+
+# IDE
+.vscode/
+
+# Test cache
+.pytest_cache/
